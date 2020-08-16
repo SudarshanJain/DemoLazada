@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Main Script</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8412f28-545d-4b24-a757-8dbb0d4a893e</testCaseGuid>
+   <variable>
+      <defaultValue>'DataFile'</defaultValue>
+      <description></description>
+      <id>eb6c0127-4734-43bd-8df9-bfbbe770a7a3</id>
+      <masked>false</masked>
+      <name>DataFile</name>
+   </variable>
+   <variable>
+      <defaultValue>'ExecutionFile'</defaultValue>
+      <description></description>
+      <id>425e4e7a-3d1f-46c4-b843-59c34e746243</id>
+      <masked>false</masked>
+      <name>SheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'TS01'</defaultValue>
+      <description></description>
+      <id>1f9b6d88-8f08-46d4-b4c4-879c5d2a2b0f</id>
+      <masked>false</masked>
+      <name>TestCaseID</name>
+   </variable>
+</TestCaseEntity>

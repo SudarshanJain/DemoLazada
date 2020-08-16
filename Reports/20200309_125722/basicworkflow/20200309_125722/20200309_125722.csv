@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+basicworkflow,Chrome 78.0.3904.97,,,2020-03-09 12:57:28,2020-03-09 12:57:48,19.785s,PASSED
+,,,,,,,
+Test Cases/Test Scripts/TS01,Chrome 78.0.3904.97,,,2020-03-09 12:57:29,2020-03-09 12:57:48,19.560s,PASSED
+accounts = findTestData(DataFile),Chrome 78.0.3904.97,,,2020-03-09 12:57:29,2020-03-09 12:57:30,0.724s,PASSED
+"rownum = com.excel.WriteExcel.findRow(SheetName, TestCaseID)",Chrome 78.0.3904.97,,,2020-03-09 12:57:30,2020-03-09 12:57:30,0.208s,PASSED
+"callTestCase(findTestCase(""ReusableFunction/LaunchandLoginApplication""), [""rownum"":rownum], STOP_ON_FAILURE)",Chrome 78.0.3904.97,,,2020-03-09 12:57:30,2020-03-09 12:57:39,8.796s,PASSED
+"callTestCase(findTestCase(""ReusableFunction/SearchProductByName""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.97,,,2020-03-09 12:57:39,2020-03-09 12:57:43,3.779s,PASSED
+"callTestCase(findTestCase(""ReusableFunction/AddProducttoCart""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.97,,,2020-03-09 12:57:43,2020-03-09 12:57:47,4.266s,PASSED
+"callTestCase(findTestCase(""ReusableFunction/LogoutFromApplication""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.97,,,2020-03-09 12:57:47,2020-03-09 12:57:48,1.413s,PASSED

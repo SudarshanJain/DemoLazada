@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="basicworkflow" time="20.843" tests="1" failures="0" errors="0">
+   <testsuite name="basicworkflow" tests="1" failures="0" errors="0" time="20.843" timestamp="2020-03-09 12:57:28" hostname="katalon1 - HQ-00222.BGI.COM.MY" id="Test Suites/basicworkflow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\katalon1\\Katalon Studio\\Demo_Lazada\\Reports\\20200309_125722\\basicworkflow\\20200309_125722"/>
+         <property name="logFiles" value="C:\\Users\\katalon1\\Katalon Studio\\Demo_Lazada\\Reports\\20200309_125722\\basicworkflow\\20200309_125722\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="katalon1 - HQ-00222.BGI.COM.MY"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.7.1"/>
+         <property name="browser" value="Chrome 78.0.3904.97"/>
+         <property name="hostAddress" value="192.168.39.113"/>
+         <property name="sessionId" value="8f25fd75a555d981ec6a37a6be5e283b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Scripts/TS01" time="19.56" classname="Test Cases/Test Scripts/TS01" status="PASSED">
+         <system-out><![CDATA[2020-03-09 12:57:29 - [TEST_CASE][PASSED] - Test Cases/Test Scripts/TS01: Test Cases/Test Scripts/TS01
+
+2020-03-09 12:57:29 - [TEST_STEP][PASSED] - accounts = findTestData(DataFile): null
+
+2020-03-09 12:57:30 - [TEST_STEP][PASSED] - rownum = com.excel.WriteExcel.findRow(SheetName, TestCaseID): com.excel.WriteExcel.findRow is PASSED
+
+2020-03-09 12:57:30 - [MESSAGE][PASSED] - com.excel.WriteExcel.findRow is PASSED
+
+2020-03-09 12:57:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReusableFunction/LaunchandLoginApplication"), ["rownum":rownum], STOP_ON_FAILURE): Call Test Case 'Test Cases/ReusableFunction/LaunchandLoginApplication' successfully
+
+2020-03-09 12:57:30 - [TEST_CASE][PASSED] - Test Cases/ReusableFunction/LaunchandLoginApplication: Test Cases/ReusableFunction/LaunchandLoginApplication
+
+2020-03-09 12:57:30 - [TEST_STEP][PASSED] - login_username = findTestData("TestData").getObjectValue("UserName", rownum): null
+
+2020-03-09 12:57:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-03-09 12:57:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-09 12:57:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-09 12:57:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-03-09 12:57:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.flipkart.com/"): Navigate to 'https://www.flipkart.com/' successfully
+
+2020-03-09 12:57:37 - [MESSAGE][PASSED] - Navigate to 'https://www.flipkart.com/' successfully
+
+2020-03-09 12:57:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/username"), login_username): Text '9844277043' is set on object 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/username'
+
+2020-03-09 12:57:38 - [MESSAGE][PASSED] - Text '9844277043' is set on object 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/username'
+
+2020-03-09 12:57:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/password"), "pass@123"): Text 'pass@123' is set on object 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/password'
+
+2020-03-09 12:57:38 - [MESSAGE][PASSED] - Text 'pass@123' is set on object 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/password'
+
+2020-03-09 12:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/button_Login")): Object: 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/button_Login' is clicked on
+
+2020-03-09 12:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/button_Login' is clicked on
+
+2020-03-09 12:57:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReusableFunction/LaunchandLoginApplication' successfully
+
+2020-03-09 12:57:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReusableFunction/SearchProductByName"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ReusableFunction/SearchProductByName' successfully
+
+2020-03-09 12:57:39 - [TEST_CASE][PASSED] - Test Cases/ReusableFunction/SearchProductByName: Test Cases/ReusableFunction/SearchProductByName
+
+2020-03-09 12:57:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Flipkartcom Secure Payment Login  Select Shipping Address  Review Order  Place Order/logoicon")): Object: 'Object Repository/Page_Flipkartcom Secure Payment Login  Select Shipping Address  Review Order  Place Order/logoicon' is clicked on
+
+2020-03-09 12:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Flipkartcom Secure Payment Login  Select Shipping Address  Review Order  Place Order/logoicon' is clicked on
+
+2020-03-09 12:57:41 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2020-03-09 12:57:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-09 12:57:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/search_bar"), "samsung"): Text 'samsung' is set on object 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/search_bar'
+
+2020-03-09 12:57:42 - [MESSAGE][PASSED] - Text 'samsung' is set on object 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/search_bar'
+
+2020-03-09 12:57:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/search_bar"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/search_bar'
+
+2020-03-09 12:57:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/search_bar'
+
+2020-03-09 12:57:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReusableFunction/SearchProductByName' successfully
+
+2020-03-09 12:57:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReusableFunction/AddProducttoCart"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ReusableFunction/AddProducttoCart' successfully
+
+2020-03-09 12:57:43 - [TEST_CASE][PASSED] - Test Cases/ReusableFunction/AddProducttoCart: Test Cases/ReusableFunction/AddProducttoCart
+
+2020-03-09 12:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Samsung - Buy Products Online at Best Price in India - All Categories  Flipkartcom/div_Samsung Galaxy A10s (Black 32 GB)")): Object: 'Object Repository/Page_Samsung - Buy Products Online at Best Price in India - All Categories  Flipkartcom/div_Samsung Galaxy A10s (Black 32 GB)' is clicked on
+
+2020-03-09 12:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Samsung - Buy Products Online at Best Price in India - All Categories  Flipkartcom/div_Samsung Galaxy A10s (Black 32 GB)' is clicked on
+
+2020-03-09 12:57:44 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-03-09 12:57:44 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-03-09 12:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Samsung Galaxy A10s ( 32 GB GB Storage 2 GB RAM ) Online at Best Price On Flipkartcom/button_ADD TO CART")): Object: 'Object Repository/Page_Samsung Galaxy A10s ( 32 GB GB Storage 2 GB RAM ) Online at Best Price On Flipkartcom/button_ADD TO CART' is clicked on
+
+2020-03-09 12:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Samsung Galaxy A10s ( 32 GB GB Storage 2 GB RAM ) Online at Best Price On Flipkartcom/button_ADD TO CART' is clicked on
+
+2020-03-09 12:57:47 - [TEST_STEP][NOT_RUN] - xpath_add_to_cart = "//button[@class='_2AkmmA _2Npkh4 _2MWPVK']/parent::li": NOT_RUN: xpath_add_to_cart = "//button[@class='_2AkmmA _2Npkh4 _2MWPVK']/parent::li"
+
+2020-03-09 12:57:47 - [MESSAGE][NOT_RUN] - NOT_RUN: xpath_add_to_cart = "//button[@class='_2AkmmA _2Npkh4 _2MWPVK']/parent::li"
+
+2020-03-09 12:57:47 - [TEST_STEP][NOT_RUN] - to_add_to_cart = new com.kms.katalon.core.testobject.TestObject(text_add): NOT_RUN: to_add_to_cart = new com.kms.katalon.core.testobject.TestObject(text_add)
+
+2020-03-09 12:57:47 - [MESSAGE][NOT_RUN] - NOT_RUN: to_add_to_cart = new com.kms.katalon.core.testobject.TestObject(text_add)
+
+2020-03-09 12:57:47 - [TEST_STEP][NOT_RUN] - to_add_to_cart.addProperty("xpath", EQUALS, xpath_add_to_cart): NOT_RUN: to_add_to_cart.addProperty("xpath", EQUALS, xpath_add_to_cart)
+
+2020-03-09 12:57:47 - [MESSAGE][NOT_RUN] - NOT_RUN: to_add_to_cart.addProperty("xpath", EQUALS, xpath_add_to_cart)
+
+2020-03-09 12:57:47 - [TEST_STEP][NOT_RUN] - click(to_add_to_cart): NOT_RUN: click(to_add_to_cart)
+
+2020-03-09 12:57:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(to_add_to_cart)
+
+2020-03-09 12:57:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReusableFunction/AddProducttoCart' successfully
+
+2020-03-09 12:57:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("ReusableFunction/LogoutFromApplication"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/ReusableFunction/LogoutFromApplication' successfully
+
+2020-03-09 12:57:47 - [TEST_CASE][PASSED] - Test Cases/ReusableFunction/LogoutFromApplication: Test Cases/ReusableFunction/LogoutFromApplication
+
+2020-03-09 12:57:47 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-03-09 12:57:47 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-03-09 12:57:47 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/div_My Account")): Object: 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/div_My Account' is hovered
+
+2020-03-09 12:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/div_My Account' is hovered
+
+2020-03-09 12:57:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/div_Logout")): Object: 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/div_Logout' is clicked on
+
+2020-03-09 12:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Online Shopping Site for Mobiles Electronics Furniture Grocery Lifestyle Books  More Best Offers/div_Logout' is clicked on
+
+2020-03-09 12:57:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ReusableFunction/LogoutFromApplication' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-09 12:57:28 - [TEST_SUITE][PASSED] - basicworkflow: Test Cases/Test Scripts/TS01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
