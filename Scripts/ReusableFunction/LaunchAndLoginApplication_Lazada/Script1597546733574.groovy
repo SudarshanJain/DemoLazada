@@ -16,12 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-
 // To Launch Browser
 WebUI.openBrowser('')
 
 //To Launch Application
 WebUI.navigateToUrl('https://www.lazada.com.my/')
+
+//Validating Application Launched Successfully & has a Valid Title
+
+String browser_title = WebUI.getWindowTitle()
+if(browser_title == 'Lazada.com.my: Best Online Shopping in Malaysia'){
+	System.out.println("Application Launched Successfully")
+}
+else{
+	System.out.println("Application failed to Launch Launch")
+}
+
 
 //To Maximize Browser Window
 WebUI.maximizeWindow()
@@ -35,18 +45,17 @@ WebUI.click(findTestObject('Object Repository/Page_Lazadacommy Online Shopping M
 //To Switch Control Google Login Window
 WebUI.switchToWindowTitle('Sign in – Google accounts')
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign in  Google accounts/input_Lazada Firebase Production_identifier'),
-	'jain.sidhu90')
+WebUI.setText(findTestObject('Object Repository/Page_Sign in  Google accounts/input_Lazada Firebase Production_identifier'), 
+    'deepjadon20@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/dummy/Page_Sign in  Google accounts/div_Next_VfPpkd-RLmnJb'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in  Google accounts/input_Too many failed attempts_password'),
-	'B/mg2sWFA3yjfMxN2HN/7A==')
+WebUI.setText(findTestObject('Object Repository/Page_Sign in  Google accounts/input_Too many failed attempts_password'), 
+    'Secure@123')
 
- WebUI.click(findTestObject('Object Repository/dummy/Page_Sign in  Google accounts/div_Next_VfPpkd-RLmnJb_1'))
+WebUI.click(findTestObject('Object Repository/dummy/Page_Sign in  Google accounts/div_Next_VfPpkd-RLmnJb_1'))
 
 WebUI.delay(5)
-
 
 WebUI.switchToWindowIndex(0)
 
